@@ -1,0 +1,996 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-21",
+  "exams": [
+    {
+      "id": "jlpt_n1",
+      "nameZh": "日语能力考 N1",
+      "nameJa": "日本語能力試験 N1",
+      "category": "language",
+      "hensachi": 68,
+      "hensachiSource": "資格の取り方",
+      "studyHoursMin": 400,
+      "studyHoursMax": 800,
+      "studyHoursNote": "按已过 N2 计算的增量时间；中文母语者有汉字优势，通常取下限",
+      "passRate": "约30%（2025年12月）",
+      "schedule": "每年 7 月、12 月的第一个周日",
+      "modules": [
+        {
+          "name": "文字・词汇",
+          "weight": 20
+        },
+        {
+          "name": "语法",
+          "weight": 20
+        },
+        {
+          "name": "阅读",
+          "weight": 35
+        },
+        {
+          "name": "听力",
+          "weight": 25
+        }
+      ],
+      "officialURL": "https://www.jlpt.jp/",
+      "keywords": [
+        "JLPT",
+        "N1",
+        "日语",
+        "日本語"
+      ]
+    },
+    {
+      "id": "jlpt_n2",
+      "nameZh": "日语能力考 N2",
+      "nameJa": "日本語能力試験 N2",
+      "category": "language",
+      "hensachi": 56,
+      "hensachiSource": "資格の取り方",
+      "studyHoursMin": 300,
+      "studyHoursMax": 600,
+      "studyHoursNote": "按已过 N3 计算的增量时间；中文母语者通常取下限",
+      "passRate": "约33%（2025年12月）",
+      "schedule": "每年 7 月、12 月的第一个周日",
+      "modules": [
+        {
+          "name": "文字・词汇",
+          "weight": 22
+        },
+        {
+          "name": "语法",
+          "weight": 20
+        },
+        {
+          "name": "阅读",
+          "weight": 30
+        },
+        {
+          "name": "听力",
+          "weight": 28
+        }
+      ],
+      "officialURL": "https://www.jlpt.jp/",
+      "keywords": [
+        "JLPT",
+        "N2",
+        "日语",
+        "日本語"
+      ]
+    },
+    {
+      "id": "jlpt_n3",
+      "nameZh": "日语能力考 N3",
+      "nameJa": "日本語能力試験 N3",
+      "category": "language",
+      "hensachi": 54,
+      "hensachiSource": "資格の取り方",
+      "studyHoursMin": 150,
+      "studyHoursMax": 300,
+      "studyHoursNote": "按已过 N4 计算的增量时间；中文母语者通常更少",
+      "passRate": "约31%（2025年12月）",
+      "schedule": "每年 7 月、12 月的第一个周日",
+      "modules": [
+        {
+          "name": "文字・词汇",
+          "weight": 25
+        },
+        {
+          "name": "语法",
+          "weight": 22
+        },
+        {
+          "name": "阅读",
+          "weight": 25
+        },
+        {
+          "name": "听力",
+          "weight": 28
+        }
+      ],
+      "officialURL": "https://www.jlpt.jp/",
+      "keywords": [
+        "JLPT",
+        "N3",
+        "日语",
+        "日本語"
+      ]
+    },
+    {
+      "id": "bjt",
+      "nameZh": "BJT 商务日语",
+      "nameJa": "BJTビジネス日本語能力テスト",
+      "category": "language",
+      "hensachi": null,
+      "hensachiSource": null,
+      "studyHoursMin": 100,
+      "studyHoursMax": 300,
+      "studyHoursNote": "假设已有 N2–N1 水平、目标 J2–J1；经验估计",
+      "passRate": "按分数评级，无合格率",
+      "schedule": "CBT 几乎每天可考，两次之间需隔 3 个月",
+      "modules": [
+        {
+          "name": "听解",
+          "weight": 30
+        },
+        {
+          "name": "听读解",
+          "weight": 25
+        },
+        {
+          "name": "读解",
+          "weight": 30
+        },
+        {
+          "name": "商务敬语・职场惯例",
+          "weight": 15
+        }
+      ],
+      "officialURL": "https://www.kanken.or.jp/bjt/",
+      "keywords": [
+        "BJT",
+        "商务日语",
+        "ビジネス日本語"
+      ]
+    },
+    {
+      "id": "toeic_800",
+      "nameZh": "TOEIC L&R 800 分",
+      "nameJa": "TOEIC Listening & Reading（目標800点）",
+      "category": "language",
+      "hensachi": null,
+      "hensachiSource": null,
+      "studyHoursMin": 500,
+      "studyHoursMax": 1000,
+      "studyHoursNote": "从 400–500 分起步的估计；已有 600 分约需 300–500 小时",
+      "passRate": "按分数评级，无合格率",
+      "schedule": "公开考试每月 1–2 次，每次分上午、下午两场",
+      "modules": [
+        {
+          "name": "核心词汇",
+          "weight": 10
+        },
+        {
+          "name": "Part 1-2 图片・应答",
+          "weight": 10
+        },
+        {
+          "name": "Part 3-4 会话・独白",
+          "weight": 25
+        },
+        {
+          "name": "Part 5-6 语法・填空",
+          "weight": 20
+        },
+        {
+          "name": "Part 7 阅读",
+          "weight": 35
+        }
+      ],
+      "officialURL": "https://www.iibc-global.org/toeic/test/lr.html",
+      "keywords": [
+        "托业",
+        "TOEIC",
+        "英语",
+        "英語"
+      ]
+    },
+    {
+      "id": "eiken_pre1",
+      "nameZh": "英检准一级",
+      "nameJa": "実用英語技能検定 準1級",
+      "category": "language",
+      "hensachi": 62,
+      "hensachiSource": "資格の取り方",
+      "studyHoursMin": 400,
+      "studyHoursMax": 800,
+      "studyHoursNote": "按已过英检 2 级计算的增量时间；经验估计",
+      "passRate": "约15%（2015年度，此后未公布）",
+      "schedule": "纸笔考试每年 3 回（约 6、10、1 月），英検 S-CBT 几乎每月",
+      "modules": [
+        {
+          "name": "词汇",
+          "weight": 20
+        },
+        {
+          "name": "长篇阅读",
+          "weight": 20
+        },
+        {
+          "name": "写作：摘要＋意见",
+          "weight": 20
+        },
+        {
+          "name": "听力",
+          "weight": 25
+        },
+        {
+          "name": "二次面试",
+          "weight": 15
+        }
+      ],
+      "officialURL": "https://www.eiken.or.jp/eiken/",
+      "keywords": [
+        "英検",
+        "英检",
+        "英语"
+      ]
+    },
+    {
+      "id": "nihongo_kyoin",
+      "nameZh": "日语教师考试",
+      "nameJa": "日本語教員試験（登録日本語教員）",
+      "category": "language",
+      "hensachi": null,
+      "hensachiSource": null,
+      "studyHoursMin": 400,
+      "studyHoursMax": 600,
+      "studyHoursNote": "非日语教育专业、走考试路线的估计",
+      "passRate": "约67.5%（2025年度，含免考路线）",
+      "schedule": "每年 11 月（2026年为 11 月 8 日）",
+      "modules": [
+        {
+          "name": "社会・文化・地域",
+          "weight": 10
+        },
+        {
+          "name": "语言与社会",
+          "weight": 10
+        },
+        {
+          "name": "语言与心理",
+          "weight": 10
+        },
+        {
+          "name": "语言与教育",
+          "weight": 20
+        },
+        {
+          "name": "语言",
+          "weight": 25
+        },
+        {
+          "name": "应用试验・读解",
+          "weight": 15
+        },
+        {
+          "name": "应用试验・听解",
+          "weight": 10
+        }
+      ],
+      "officialURL": "https://www.mext.go.jp/a_menu/nihongo_kyoiku/mext_00004.html",
+      "keywords": [
+        "日本語教師",
+        "登録日本語教員",
+        "日语教师",
+        "日本語教育能力検定"
+      ]
+    },
+    {
+      "id": "eju_bunkei",
+      "nameZh": "留学生考试 EJU（文科）",
+      "nameJa": "日本留学試験（文系）",
+      "category": "study_abroad",
+      "hensachi": null,
+      "hensachiSource": null,
+      "studyHoursMin": 300,
+      "studyHoursMax": 800,
+      "studyHoursNote": "日语已有 N2 左右时，文科全套备考的估计",
+      "passRate": "按分数考，无合格率",
+      "schedule": "每年 6 月、11 月（2026年为 6 月 21 日、11 月 8 日）",
+      "modules": [
+        {
+          "name": "日语・记述",
+          "weight": 10
+        },
+        {
+          "name": "日语・读解",
+          "weight": 20
+        },
+        {
+          "name": "日语・听解/听读解",
+          "weight": 20
+        },
+        {
+          "name": "综合科目",
+          "weight": 25
+        },
+        {
+          "name": "数学 Course 1",
+          "weight": 25
+        }
+      ],
+      "officialURL": "https://www.jasso.go.jp/ryugaku/eju/",
+      "keywords": [
+        "EJU",
+        "留考",
+        "留学",
+        "日本留学試験",
+        "文系"
+      ]
+    },
+    {
+      "id": "eju_rikei",
+      "nameZh": "留学生考试 EJU（理科）",
+      "nameJa": "日本留学試験（理系）",
+      "category": "study_abroad",
+      "hensachi": null,
+      "hensachiSource": null,
+      "studyHoursMin": 300,
+      "studyHoursMax": 800,
+      "studyHoursNote": "日语已有 N2 左右时，理科全套备考的估计",
+      "passRate": "按分数考，无合格率",
+      "schedule": "每年 6 月、11 月（2026年为 6 月 21 日、11 月 8 日）",
+      "modules": [
+        {
+          "name": "日语・记述",
+          "weight": 8
+        },
+        {
+          "name": "日语・读解",
+          "weight": 15
+        },
+        {
+          "name": "日语・听解/听读解",
+          "weight": 15
+        },
+        {
+          "name": "理科①",
+          "weight": 21
+        },
+        {
+          "name": "理科②",
+          "weight": 21
+        },
+        {
+          "name": "数学 Course 2",
+          "weight": 20
+        }
+      ],
+      "officialURL": "https://www.jasso.go.jp/ryugaku/eju/",
+      "keywords": [
+        "EJU",
+        "留考",
+        "留学",
+        "日本留学試験",
+        "理系",
+        "物理",
+        "化学",
+        "生物"
+      ]
+    },
+    {
+      "id": "boki3",
+      "nameZh": "簿记 3 级",
+      "nameJa": "日商簿記検定試験 3級",
+      "category": "accounting_finance",
+      "hensachi": 45,
+      "hensachiSource": "資格の取り方",
+      "studyHoursMin": 50,
+      "studyHoursMax": 100,
+      "studyHoursNote": "零基础初学者",
+      "passRate": "统一考试约34%・网考约41%",
+      "schedule": "统一考试每年 6、11、2 月；网考（CBT）随时",
+      "modules": [
+        {
+          "name": "第1问 分录",
+          "weight": 35
+        },
+        {
+          "name": "第2问 账户・辅助簿",
+          "weight": 20
+        },
+        {
+          "name": "第3问 决算・财务报表",
+          "weight": 35
+        },
+        {
+          "name": "基础概念・试算表",
+          "weight": 10
+        }
+      ],
+      "officialURL": "https://www.kentei.ne.jp/bookkeeping",
+      "keywords": [
+        "簿記",
+        "簿记",
+        "会计",
+        "boki"
+      ]
+    },
+    {
+      "id": "boki2",
+      "nameZh": "簿记 2 级",
+      "nameJa": "日商簿記検定試験 2級",
+      "category": "accounting_finance",
+      "hensachi": 58,
+      "hensachiSource": "資格の取り方",
+      "studyHoursMin": 250,
+      "studyHoursMax": 350,
+      "studyHoursNote": "已掌握 3 级内容；零基础约再加 100 小时",
+      "passRate": "统一考试约15%・网考约33%",
+      "schedule": "统一考试每年 6、11、2 月；网考（CBT）随时",
+      "modules": [
+        {
+          "name": "商业簿记・分录",
+          "weight": 20
+        },
+        {
+          "name": "商业簿记・合并会计",
+          "weight": 20
+        },
+        {
+          "name": "商业簿记・财务报表",
+          "weight": 20
+        },
+        {
+          "name": "工业簿记・费目别计算",
+          "weight": 20
+        },
+        {
+          "name": "工业簿记・成本计算",
+          "weight": 20
+        }
+      ],
+      "officialURL": "https://www.kentei.ne.jp/bookkeeping",
+      "keywords": [
+        "簿記",
+        "簿记",
+        "会计",
+        "boki"
+      ]
+    },
+    {
+      "id": "fp2",
+      "nameZh": "FP 2 级",
+      "nameJa": "2級ファイナンシャル・プランニング技能検定",
+      "category": "accounting_finance",
+      "hensachi": 48,
+      "hensachiSource": "資格の取り方",
+      "studyHoursMin": 150,
+      "studyHoursMax": 300,
+      "studyHoursNote": "零基础或 FP3 水平；已有 FP3 可取下限",
+      "passRate": "学科约47%（日本FP协会）",
+      "schedule": "CBT 随时可考（年末年始除外）",
+      "modules": [
+        {
+          "name": "人生规划与资金计划",
+          "weight": 17
+        },
+        {
+          "name": "风险管理",
+          "weight": 15
+        },
+        {
+          "name": "金融资产运用",
+          "weight": 17
+        },
+        {
+          "name": "税务规划",
+          "weight": 17
+        },
+        {
+          "name": "不动产",
+          "weight": 17
+        },
+        {
+          "name": "继承・事业承继",
+          "weight": 17
+        }
+      ],
+      "officialURL": "https://www.jafp.or.jp/exam/",
+      "keywords": [
+        "FP",
+        "理财",
+        "ファイナンシャルプランナー",
+        "金融"
+      ]
+    },
+    {
+      "id": "itpassport",
+      "nameZh": "IT 护照",
+      "nameJa": "ITパスポート試験",
+      "category": "it",
+      "hensachi": 45,
+      "hensachiSource": "資格の取り方",
+      "studyHoursMin": 100,
+      "studyHoursMax": 180,
+      "studyHoursNote": "无 IT 经验的初学者；有经验约 50 小时",
+      "passRate": "约49%（2025年度）",
+      "schedule": "CBT 全年随时可考",
+      "modules": [
+        {
+          "name": "战略系",
+          "weight": 35
+        },
+        {
+          "name": "管理系",
+          "weight": 20
+        },
+        {
+          "name": "技术系",
+          "weight": 45
+        }
+      ],
+      "officialURL": "https://www3.jitec.ipa.go.jp/JitesCbt/",
+      "keywords": [
+        "iパス",
+        "ITパス",
+        "IT"
+      ]
+    },
+    {
+      "id": "fe",
+      "nameZh": "基本信息技术者 FE",
+      "nameJa": "基本情報技術者試験",
+      "category": "it",
+      "hensachi": 49,
+      "hensachiSource": "資格の取り方",
+      "studyHoursMin": 100,
+      "studyHoursMax": 200,
+      "studyHoursNote": "无 IT 经验约 200 小时，有经验约 50–100 小时",
+      "passRate": "约38%（2025年度）",
+      "schedule": "CBT 全年随时可考",
+      "modules": [
+        {
+          "name": "科目A・技术系",
+          "weight": 35
+        },
+        {
+          "name": "科目A・管理/战略系",
+          "weight": 15
+        },
+        {
+          "name": "科目B・算法与编程",
+          "weight": 35
+        },
+        {
+          "name": "科目B・信息安全",
+          "weight": 15
+        }
+      ],
+      "officialURL": "https://www.ipa.go.jp/shiken/kubun/fe.html",
+      "keywords": [
+        "基本情報",
+        "基本情报",
+        "FE",
+        "IT",
+        "程序"
+      ]
+    },
+    {
+      "id": "ap",
+      "nameZh": "应用信息技术者 AP",
+      "nameJa": "応用情報技術者試験",
+      "category": "it",
+      "hensachi": 65,
+      "hensachiSource": "資格の取り方",
+      "studyHoursMin": 200,
+      "studyHoursMax": 500,
+      "studyHoursNote": "已过基本情报约 200 小时，零基础约 500 小时",
+      "passRate": "约24.5%（2025年秋期）",
+      "schedule": "2026年度起改为 CBT（前期约 11 月、后期约次年 2 月）",
+      "modules": [
+        {
+          "name": "科目A・技术系",
+          "weight": 25
+        },
+        {
+          "name": "科目A・管理/战略系",
+          "weight": 15
+        },
+        {
+          "name": "科目B・信息安全",
+          "weight": 20
+        },
+        {
+          "name": "科目B・选答领域",
+          "weight": 30
+        },
+        {
+          "name": "记述答题练习",
+          "weight": 10
+        }
+      ],
+      "officialURL": "https://www.ipa.go.jp/shiken/kubun/ap.html",
+      "keywords": [
+        "応用情報",
+        "应用情报",
+        "AP",
+        "IT"
+      ]
+    },
+    {
+      "id": "takken",
+      "nameZh": "宅建",
+      "nameJa": "宅地建物取引士資格試験",
+      "category": "law_realestate",
+      "hensachi": 57,
+      "hensachiSource": "資格の取り方",
+      "studyHoursMin": 300,
+      "studyHoursMax": 400,
+      "studyHoursNote": "零基础初学者",
+      "passRate": "约18.7%（2025年度）",
+      "schedule": "每年 10 月第三个周日（2026年为 10 月 18 日）",
+      "modules": [
+        {
+          "name": "权利关系",
+          "weight": 30
+        },
+        {
+          "name": "宅建业法",
+          "weight": 35
+        },
+        {
+          "name": "法令上的限制",
+          "weight": 18
+        },
+        {
+          "name": "税・其他",
+          "weight": 17
+        }
+      ],
+      "officialURL": "https://www.retio.or.jp/exam/",
+      "keywords": [
+        "宅建士",
+        "宅地建物取引士",
+        "不动产",
+        "不動産"
+      ]
+    },
+    {
+      "id": "gyoseishoshi",
+      "nameZh": "行政书士",
+      "nameJa": "行政書士試験",
+      "category": "law_realestate",
+      "hensachi": 62,
+      "hensachiSource": "資格の取り方",
+      "studyHoursMin": 600,
+      "studyHoursMax": 1000,
+      "studyHoursNote": "无法律基础的初学者",
+      "passRate": "约14.5%（2025年度）",
+      "schedule": "每年 11 月第二个周日",
+      "modules": [
+        {
+          "name": "行政法",
+          "weight": 35
+        },
+        {
+          "name": "民法",
+          "weight": 28
+        },
+        {
+          "name": "宪法",
+          "weight": 10
+        },
+        {
+          "name": "商法・公司法",
+          "weight": 5
+        },
+        {
+          "name": "基础法学",
+          "weight": 3
+        },
+        {
+          "name": "基础知识",
+          "weight": 12
+        },
+        {
+          "name": "记述题练习",
+          "weight": 7
+        }
+      ],
+      "officialURL": "https://gyosei-shiken.or.jp/",
+      "keywords": [
+        "行政書士",
+        "行政书士",
+        "法律"
+      ]
+    },
+    {
+      "id": "sharoushi",
+      "nameZh": "社劳士",
+      "nameJa": "社会保険労務士試験",
+      "category": "law_realestate",
+      "hensachi": 65,
+      "hensachiSource": "資格の取り方",
+      "studyHoursMin": 800,
+      "studyHoursMax": 1000,
+      "studyHoursNote": "零基础初学者",
+      "passRate": "约9.3%（2026年）",
+      "schedule": "每年 8 月第四个周日",
+      "modules": [
+        {
+          "name": "劳基法・安卫法",
+          "weight": 13
+        },
+        {
+          "name": "劳灾保险法",
+          "weight": 11
+        },
+        {
+          "name": "雇用保险法",
+          "weight": 12
+        },
+        {
+          "name": "劳务管理与劳动常识",
+          "weight": 9
+        },
+        {
+          "name": "社会保险常识",
+          "weight": 9
+        },
+        {
+          "name": "健康保险法",
+          "weight": 14
+        },
+        {
+          "name": "厚生年金保险法",
+          "weight": 16
+        },
+        {
+          "name": "国民年金法",
+          "weight": 16
+        }
+      ],
+      "officialURL": "https://www.sharosi-siken.or.jp/",
+      "keywords": [
+        "社労士",
+        "社劳士",
+        "社会保险",
+        "年金"
+      ]
+    },
+    {
+      "id": "shindanshi_1",
+      "nameZh": "中小企业诊断士（一次）",
+      "nameJa": "中小企業診断士 第1次試験",
+      "category": "business",
+      "hensachi": 67,
+      "hensachiSource": "資格の取り方",
+      "studyHoursMin": 700,
+      "studyHoursMax": 1000,
+      "studyHoursNote": "零基础、只算一次考试；含二次约 1000–1200 小时",
+      "passRate": "约23%（2026年度）",
+      "schedule": "每年 8 月上旬的周六、周日两天",
+      "modules": [
+        {
+          "name": "企业经营理论",
+          "weight": 18
+        },
+        {
+          "name": "财务・会计",
+          "weight": 18
+        },
+        {
+          "name": "运营管理",
+          "weight": 16
+        },
+        {
+          "name": "经济学・经济政策",
+          "weight": 13
+        },
+        {
+          "name": "经营信息系统",
+          "weight": 12
+        },
+        {
+          "name": "经营法务",
+          "weight": 12
+        },
+        {
+          "name": "中小企业经营・政策",
+          "weight": 11
+        }
+      ],
+      "officialURL": "https://www.j-smeca.jp/",
+      "keywords": [
+        "診断士",
+        "诊断士",
+        "MBA",
+        "经营"
+      ]
+    },
+    {
+      "id": "hisho2",
+      "nameZh": "秘书检定 2 级",
+      "nameJa": "秘書技能検定 2級",
+      "category": "business",
+      "hensachi": 45,
+      "hensachiSource": "資格の取り方",
+      "studyHoursMin": 30,
+      "studyHoursMax": 60,
+      "studyHoursNote": "日语 N2 以上的初学者；日语较弱需要更多时间",
+      "passRate": "纸笔约53%・CBT 约62%",
+      "schedule": "纸笔考试每年 6、11、2 月；CBT 随时",
+      "modules": [
+        {
+          "name": "必要资质",
+          "weight": 12
+        },
+        {
+          "name": "职务知识",
+          "weight": 13
+        },
+        {
+          "name": "一般知识",
+          "weight": 10
+        },
+        {
+          "name": "礼仪・接待",
+          "weight": 40
+        },
+        {
+          "name": "技能",
+          "weight": 25
+        }
+      ],
+      "officialURL": "https://jitsumu-ginou-kentei.jp/hisho",
+      "keywords": [
+        "秘書検定",
+        "秘书",
+        "商务礼仪",
+        "マナー"
+      ]
+    },
+    {
+      "id": "kaigofukushishi",
+      "nameZh": "介护福祉士",
+      "nameJa": "介護福祉士国家試験",
+      "category": "care",
+      "hensachi": 45,
+      "hensachiSource": "資格の取り方",
+      "studyHoursMin": 150,
+      "studyHoursMax": 300,
+      "studyHoursNote": "已有实务经验并完成実務者研修的估计；外国人可申请注音试卷",
+      "passRate": "约70%（2026年1月）",
+      "schedule": "每年 1 月下旬的周日（下次 2027 年 1 月 31 日）",
+      "modules": [
+        {
+          "name": "人与社会",
+          "weight": 15
+        },
+        {
+          "name": "介护基础・沟通",
+          "weight": 15
+        },
+        {
+          "name": "生活支援技术",
+          "weight": 15
+        },
+        {
+          "name": "身心机制・认知症",
+          "weight": 25
+        },
+        {
+          "name": "医疗护理",
+          "weight": 5
+        },
+        {
+          "name": "介护过程",
+          "weight": 10
+        },
+        {
+          "name": "综合问题",
+          "weight": 15
+        }
+      ],
+      "officialURL": "https://www.sssc.or.jp/kaigo/",
+      "keywords": [
+        "介護",
+        "介护",
+        "福祉",
+        "护理"
+      ]
+    },
+    {
+      "id": "gaimen_kirikae",
+      "nameZh": "外国驾照切换（外免切替）",
+      "nameJa": "外国免許切替（知識確認・技能確認）",
+      "category": "life",
+      "hensachi": null,
+      "hensachiSource": null,
+      "studyHoursMin": 10,
+      "studyHoursMax": 30,
+      "studyHoursNote": "已有驾驶经验时的估计。2025年10月起知识确认改为 50 道文章题、须答对 90%",
+      "passRate": "2025年10月改革后大幅下降，各县不同",
+      "schedule": "各都道府县运转免许中心，预约制；第一次去通常上午考知识、下午考技能",
+      "modules": [
+        {
+          "name": "交通法规文章题",
+          "weight": 30
+        },
+        {
+          "name": "标志・标线",
+          "weight": 15
+        },
+        {
+          "name": "优先关系・保护行人",
+          "weight": 10
+        },
+        {
+          "name": "技能：路线与课题",
+          "weight": 30
+        },
+        {
+          "name": "安全确认・打灯",
+          "weight": 15
+        }
+      ],
+      "officialURL": null,
+      "keywords": [
+        "外免",
+        "驾照",
+        "免許",
+        "运转免许",
+        "切替"
+      ]
+    },
+    {
+      "id": "menkyo_gakka",
+      "nameZh": "驾照学科考试（普通一种）",
+      "nameJa": "普通自動車第一種運転免許 学科試験",
+      "category": "life",
+      "hensachi": null,
+      "hensachiSource": null,
+      "studyHoursMin": 30,
+      "studyHoursMax": 50,
+      "studyHoursNote": "在驾校上完学科课后另外自学；部分县提供中文考题",
+      "passRate": "全国合格率未公布",
+      "schedule": "各都道府县运转免许中心平日受理（驾校毕业后 1 年内）",
+      "modules": [
+        {
+          "name": "信号・标志标线",
+          "weight": 25
+        },
+        {
+          "name": "通行方法・优先关系",
+          "weight": 25
+        },
+        {
+          "name": "驾驶者义务・安全驾驶",
+          "weight": 20
+        },
+        {
+          "name": "停车・驻车",
+          "weight": 10
+        },
+        {
+          "name": "危险预测看图题",
+          "weight": 10
+        },
+        {
+          "name": "高速公路",
+          "weight": 10
+        }
+      ],
+      "officialURL": "https://www.police.pref.osaka.lg.jp/tetsuduki/untenmenkyo/juken/choku/3709.html",
+      "keywords": [
+        "驾照",
+        "免許",
+        "学科",
+        "驾校",
+        "教習所"
+      ]
+    }
+  ]
+}
